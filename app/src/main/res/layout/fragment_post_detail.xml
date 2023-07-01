@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/tvPostTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:text="@string/post_title"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvPostBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:textColor="#9571D9"
+        android:text="@string/post_body"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPostTitle" />
+
+    <TextView
+        android:id="@+id/userIdTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPostBody"
+        android:text="@string/user_id"
+        android:textAllCaps="true"
+        android:layout_marginStart="20dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/tvIdTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/userIdTitle"
+        android:text="@string/id"
+        android:textAllCaps="true"
+        android:layout_marginStart="20dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/userId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/userIdTitle"
+        app:layout_constraintTop_toBottomOf="@id/tvPostBody"
+        android:layout_marginTop="25dp"
+        android:textAllCaps="true"
+        android:layout_marginStart="20dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/tvIdTitle"
+        app:layout_constraintTop_toBottomOf="@id/userIdTitle"
+        android:layout_marginTop="25dp"
+        android:textAllCaps="true"
+        android:layout_marginStart="20dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

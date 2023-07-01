@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">POST</string>
+    <string name="whats_app">Whats APP</string>
+    <string name="post_body">post body</string>
+    <string name="post_title">post title</string>
+    <string name="accessibility_description">Post Accessibility Service</string>
+    <string name="user_id">userId :</string>
+    <string name="id">Id :</string>
+</resources>
